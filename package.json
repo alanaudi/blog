@@ -1,8 +1,14 @@
 {
   "name": "Blog",
   "version": "1.0.0",
+  "description": "Personal note taking blog",
+  "repository": "git@github.com.com:alanaudi/blog.git",
   "author": "alanaudi <alanaudi.tw@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "./node_modules/vuepress/bin/vuepress.js dev docs",
+    "build": "./node_modules/vuepress/bin/vuepress.js build docs",
+  },
   "dependencies": {
     "vuepress": "^0.14.8"
   }
