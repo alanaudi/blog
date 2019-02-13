@@ -1,0 +1,9 @@
+{
+  "name": "Blog",
+  "version": "1.0.0",
+  "author": "alanaudi <alanaudi.tw@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "vuepress": "^0.14.8"
+  }
+}
