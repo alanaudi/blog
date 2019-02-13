@@ -1,5 +1,6 @@
 module.exports = {
   title: 'alanaudi',
+  theme: 'api',
   port: 8090,
   themeConfig: {
     sidebar: {
@@ -10,8 +11,8 @@ module.exports = {
       'Note': {
         children: [
           {
-            title: 'Generative Adversarial Network (GAN)',
-            to: '/gan/',
+            title: 'Generative Adversarial Network',
+            to: '/note/gan/',
           },
         ],
       },
